@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+background-color: #97BE5A;
+    color: white;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+}
+#container > #white-box{
+    height: 400px;
+    width: 200px;
+    background-color: white;
+}
+#container > #grid-box{
+    display: grid;
+    grid-template-columns: 600px;
+    grid-template-rows: 200px 200px;
+}
+#container > #grid-box > #red-box{
+    background-color: #F9423A;
+}
+#container > #grid-box > #green-box{
+    background-color: #00843D;
+}
